@@ -29,7 +29,6 @@ public class ItemPage extends BasePage {
     }
 
     public String getItemPrice() {
-        return addToCart.getText().substring(0,3);
+        return addToCart.getText().substring(0, 3);
     }
-
 }

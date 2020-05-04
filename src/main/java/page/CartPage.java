@@ -46,7 +46,6 @@ public class CartPage extends BasePage {
         return itemCurrentPrice.getText();
     }
 
-
     public void selectCountryForShipping() {
         chooseCountryForShippingDropdown.click();
         wait.until(ExpectedConditions.elementToBeClickable(selectCountryForShipping));

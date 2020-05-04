@@ -22,7 +22,7 @@ public class DisplateMainPage extends BasePage {
         getDriver().get(loadProperties().getProperty("Main_URL"));
     }
 
-    public String storeItemCollectionId(){
+    public String storeItemCollectionId() {
         return firstBestsellingItem.getAttribute("data-item-collection-id");
     }
 

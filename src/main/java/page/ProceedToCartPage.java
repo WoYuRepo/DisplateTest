@@ -6,15 +6,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class ProceedToCartPage extends BasePage {
-    public ProceedToCartPage() {
-        super();
-    }
     @FindBy(how = How.XPATH, using = "//a[@class='button button--primary']")
     private WebElement proceedToCart;
 
-    public void clickProceedToCart(){
+    public ProceedToCartPage() {
+        super();
+    }
+
+    public void clickProceedToCart() {
         proceedToCart.click();
         new CartPage();
     }
-
 }

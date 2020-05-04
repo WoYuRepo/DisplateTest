@@ -26,9 +26,9 @@ public class TestClass extends BaseTest {
 
         String actualItemId = cartPage.getItemId();
 
-        Assert.assertEquals(expectedItemId,actualItemId);
-
+        Assert.assertEquals(expectedItemId, actualItemId);
     }
+
     @Test
     public void verifyIfPriceOfAddedItemIsCorrect() throws IOException {
         homePage.openMainPage();
